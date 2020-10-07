@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat i-Room</title>
+    <link rel="stylesheet" href="songs img/style.css">
+
+
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="./songs img/script.js"></script>
+</head>
+
+<body>
+    <div class="chat-room">
+        <nav class="logo-container">
+            <img src="./songs img/logo.png" alt="system-logo" class="logo">
+            <h1 class="heading">Chat i-Room</h1>
+            <h1 id="userName" class="heading"></h1>
+        </nav>
+        <section class="msg-container">
+        </section>
+        <section>
+            <form action="#" class="form">
+                <input type="text" name="message" id="" class="message-input" placeholder="Enter Message">
+                <button type="submit"   class="message-btn">Send</button>
+            </form>
+        </section>
+    </div>
+
+</body>
+
+</html>
