@@ -1,0 +1,14 @@
+{
+  "name": "live-chat-room",
+  "version": "1.0.0",
+  "description": "chat room",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "author": "anurag",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^2.3.0"
+  }
+}
